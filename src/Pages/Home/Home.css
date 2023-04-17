@@ -30,3 +30,15 @@
   justify-content: space-evenly;
   align-items: flex-start;
 }
+
+/* media -queries */
+
+@media screen and (max-width: 770px) {
+  .title-section h1 {
+    font-size: 1.5rem;
+  }
+  .trending-section h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}

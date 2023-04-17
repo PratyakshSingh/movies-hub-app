@@ -14,13 +14,7 @@
 
 .left-section {
   display: flex;
-  /* align-items: center; */
 }
-
-/* .left-section img {
-  width: 55px;
-  margin-top: 10px;
-} */
 
 .logo-text {
   cursor: pointer;
@@ -37,6 +31,7 @@
 }
 
 .right-section ul li {
+  font-size: 1rem;
   margin: 0 20px;
   cursor: pointer;
   transition: all 0.5s;
@@ -44,4 +39,18 @@
 .right-section ul li a {
   text-decoration: none;
   color: white;
+}
+
+/* media-queries */
+
+@media screen and (max-width: 770px) {
+  .header {
+    height: 120px;
+  }
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
