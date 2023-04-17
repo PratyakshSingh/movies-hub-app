@@ -1,0 +1,9 @@
+.App {
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}

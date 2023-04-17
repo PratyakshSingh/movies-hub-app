@@ -1,0 +1,32 @@
+.main {
+  min-height: 100vh;
+  padding: 0px 20px;
+}
+
+.title-section h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px 0px;
+  color: #032541;
+}
+
+.trending-section {
+  margin-top: 20px;
+}
+
+.trending-section h2 {
+  margin-left: 20px;
+  color: #032541;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+.movie-container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
